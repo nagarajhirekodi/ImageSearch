@@ -1,0 +1,25 @@
+.imageSearch {
+  width: 100%;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.imageSearch__form input {
+  border: 1.5px solid #c1c8d0;
+  border-radius: 5px;
+  padding: 12px;
+  width: 50%;
+  letter-spacing: 2px;
+  font-size: 16px;
+  color: black;
+}
+
+.imageSearch__form input:focus {
+  outline: none;
+}
+
+.imageSearch__form img {
+  position: absolute;
+  height: 41px;
+  cursor: pointer;  
+}
